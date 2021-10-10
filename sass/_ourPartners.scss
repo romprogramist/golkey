@@ -1,0 +1,14 @@
+.ourPartners {
+    padding: 81px 0 100px 0;
+    .wrapper {
+        margin-top: 75px;
+        &__img {
+            width: 100%;
+        }
+        img {
+            width: 240px;
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+}

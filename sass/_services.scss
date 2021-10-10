@@ -1,0 +1,46 @@
+.services {
+    padding: 69px 0;
+    .servicesItem {
+        display: flex;
+        justify-content: space-between;
+        &__itemOne {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__img {
+            width: 534px;
+            height: 231px;
+        }
+        &__name {
+            width: 100%;
+            height: 47px;
+            background: rgba(255, 255, 255, 0.9);
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18.707px;
+            line-height: 22px;
+            font-weight: 300;
+            padding-right: 30px;
+            position: relative;
+            color: black;
+            .servicesArrow {
+                position: absolute;
+                width: 25px;
+                height: 25px;
+                right: 30px;
+            }
+        }
+    }
+    .plug {
+        width: 96px;
+        height: 231px;
+        background: #F7F7F6;
+    }
+    .margTop {
+        margin-top: 40px;
+    }
+    
+}

@@ -1,0 +1,104 @@
+@media screen and (max-width: 1199px) {
+    footer {
+        .footerItem {
+            margin-top: 70px !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            &__subheader {
+                font-size: 16.4348px;
+                line-height: 19px;
+                text-align: center !important;
+                width: 100%;
+            }
+            &__topHeader {
+                padding-bottom: 20px;
+                margin-left: 0 !important;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                &::before {
+                    top: 30% !important;
+                    left: -10px !important;
+                } 
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: -10px;
+                    top: 30%;
+                    width: 62px;
+                    height: 0px;
+                    border: 1px solid #FFFFFF;
+                }
+            }
+            &__instogram {
+                margin-top: 21px;
+            }
+            &__footerItemTopO {
+                margin-top: 0;
+            }
+        }
+        .textCenter {
+            text-align: center;
+        }
+        .imgHeader {
+            width: 200px;
+        }
+        .button_footerButton {
+            width: 348px;
+            height: 63px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    footer {
+        padding-bottom: 29px;
+        .footerItem {
+            width: 95%;
+            &__subheader {
+                font-size: 16px;
+            }
+            &__topHeader {
+                font-size: 20px;
+                width: 100%;
+                &::before {
+                    position: absolute;
+                    left: 5% !important;
+                    width: 52px !important;
+                } 
+                &::after {
+                    position: absolute;
+                    right: 5%;
+                    width: 52px !important;
+                }
+            }
+            &__flex {
+                padding: 0 10px;
+                display: flex;
+                align-items: center !important;
+            }
+            
+        }
+        .footerItemTopO {
+            margin-top: 0 !important;
+        }
+        .imgHeader {
+            width: 40% !important;
+        }
+        .textCenter {
+            display: flex;
+            flex-direction: column;
+        }
+        .marginTop0 {
+            margin-top: 0;
+            text-align: right !important;
+        }
+        .button_footerButton {
+            width: 100%;
+            height: 60px;
+        }
+    }
+}

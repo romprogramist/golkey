@@ -1,0 +1,196 @@
+.shadow {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+  // display: none;
+  &__modal {
+    padding: 60px 70px 50px 70px;
+    position: absolute;
+    width: 478px;
+    height: 494px;
+    background: #f7f7f6;
+    box-shadow: 0px 4px 35px 16px rgba(0, 0, 0, 0.26);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      font-size: 18px;
+      line-height: 21px;
+      width: 250px;
+      height: 31px;
+      border: none;
+      border-bottom: 1px solid #000000;
+      background-color: transparent;
+      outline: none;
+      margin-top: 34px;
+      padding-bottom: 10px;
+    }
+    input::placeholder {
+      font-size: 18px;
+      line-height: 21px;
+      color: #cecece;
+    }
+  }
+  &__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+  }
+  &__subtitle {
+    text-align: center;
+    margin-top: 9px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #949494;
+  }
+  .phoneErrorChek {
+    position: relative;
+  }
+  .errorPhone {
+    font-size: 11px;
+    top: 70px;
+    position: absolute;
+  }
+  .nameErrorChek {
+    position: relative;
+  }
+  .errorName {
+    position: absolute;
+    font-size: 11px;
+    top: 70px;
+  }
+}
+
+.shadowThank {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+  display: none;
+  &__applicationSent {
+    padding: 0px 50px 0px 50px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: #f7f7f6;
+    box-shadow: 0px 4px 35px 16px rgba(0, 0, 0, 0.26);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    .applicationSent {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+.closeApplicationSent {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+}
+
+.shadowSurprise {
+  overflow: auto;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+  &__modal {
+    display: inline-block;
+    padding: 40px 75px 25px 75px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 478px;
+    background: #f7f7f6;
+    position: relative;
+    .giftRibbon {
+      position: absolute;
+      top: -40px;
+      left: -30px;
+    }
+    .airConditioning {
+      width: 100%;
+      margin-top: 70px;
+    }
+  }
+  .header {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .wrapperFlex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    position: relative;
+    &__title {
+      max-width: 210px;
+    }
+  }
+  .title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8a8a8a;
+  }
+  strong {
+    color: #6a6a6a;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      border-bottom: 2px solid #fbdb73;
+    }
+  }
+  .titleTwo {
+    margin-top: 20px;
+  }
+  .footer {
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    &__stock {
+      line-height: 14px;
+      color: #949494;
+    }
+    &__date {
+      color: black;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 15px;
+        border-bottom: 2px solid #fbdb73;
+      }
+    }
+  }
+  .buttonSurpris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0 auto;
+    width: 100%;
+  }
+  .header {
+      padding: 0;
+  }
+}

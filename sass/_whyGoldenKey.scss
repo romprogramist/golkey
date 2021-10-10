@@ -1,0 +1,62 @@
+.whyGoldenKey {
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    padding: 70px 0 0px 0;
+    .whyGoldenKeyWrapper {
+        display: flex;
+        justify-content: space-between;
+        &__titleWrapper {
+            width: 541px;
+        }
+        &__item {
+            position: relative;
+            margin-top: 70px;
+            max-width: 400px;
+            margin-left: 32px;
+        }
+        &__number {
+            position: absolute;
+            top: -60px;
+            left: -40px;
+            font-size: 90px;
+            line-height: 105px;
+            color: #FFF7D9;
+            z-index: -1;
+            font-weight: 900;
+        }
+        &__title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #555555;
+        }
+        &__subtitle {
+            margin-top: 22px;
+            font-size: 18px;
+            line-height: 21px;
+            color: #8A8A8A;
+        }
+        &__imgWrapper {
+            display: flex;
+        }
+        &__imgWrapper2 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        &__img1 {
+            object-fit: cover;
+            max-width: 256px;
+            height: 100%;
+        }
+        &__img2  {
+            height: 50%;
+            max-width: 256px;
+            object-fit: cover;
+        }
+        &__img2:nth-last-child(2) {
+            margin-bottom: 20px;
+        }
+    }
+}

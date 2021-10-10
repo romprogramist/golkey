@@ -1,0 +1,169 @@
+@media screen and (max-width: 1500px) {
+  .main {
+    .bgTwo {
+      &__wrapper {
+        margin-left: 20%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .main {
+    .bgTwo {
+      &__wrapper {
+        margin-left: 10%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .main {
+    .bgTwo {
+      &__wrapper {
+        margin-left: 5%;
+      }
+      h1 {
+        font-size: 36.4045px;
+        line-height: 43px;
+        span {
+          font-size: 32.764px;
+          line-height: 38px;
+        }
+      }
+      &__subtitle {
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .main {
+    .bgTwo {
+      width: 60%;
+    }
+    .ourExperience {
+      &__number {
+        font-size: 33.9041px;
+        line-height: 40px;
+      }
+      &__subheader {
+        font-size: 12.8493px;
+        line-height: 13px;
+      }
+      &__item {
+        width: 140px;
+      }
+      &__itemLin {
+        border-right: 0.678082px solid #000000;
+        &:before {
+          border: 0;
+          height: 100px;
+          left: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    .bg {
+      background: url("../img/bg/MainBGMIN.jpg") center center / cover no-repeat;
+      display: flex;
+      align-items: flex-end;
+      height: 499px;
+      .bgTwo {
+        margin-bottom: 10px;
+        padding: 0;
+        height: 58%;
+        width: 100%;
+        &__wrapper {
+          width: 80%;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          .button {
+            margin-top: 20px;
+          }
+        }
+        h1 {
+          width: 100%;
+        }
+        &__subtitle {
+          width: 300px;
+        }
+      }
+    }
+    .ourExperience {
+      margin: 0 auto;
+      margin-top: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .main {
+    .bg {
+      .bgTwo {
+        &__wrapper {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    .ourExperience {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .bg {
+      .bgTwo {
+        margin-bottom: 10px;
+        padding: 0;
+        &__subtitle {
+          margin-top: 10px;
+        }
+        &__wrapper {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main {
+    .bg {
+      .bgTwo {
+        padding: 0;
+        &__wrapper {
+          width: 88%;
+          h1 {
+            font-size: 32px;
+            span {
+              font-size: 32px;
+            }
+          }
+        }
+        &__subtitle {
+          font-size: 13.5px;
+          max-width: 260px;
+        }
+      }
+    }
+    .ourExperience {
+      &__subheader {
+        font-size: 10px;
+      }
+    }
+  }
+}

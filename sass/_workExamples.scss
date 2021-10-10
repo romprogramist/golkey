@@ -1,0 +1,21 @@
+.workExamples {
+    padding: 83px 0 66px 0;
+    .wrapper {
+        margin-top: 56px;
+        &__item {
+            display: flex;
+            align-items: center;
+            padding-left: 10%;
+            margin: 0 auto;
+            width: 310px;
+            height: 83px;
+            background: #F7F7F6;
+            color: black;
+            font-size: 21px;
+            line-height: 25px;
+        }
+        img {
+            margin-right: 15px;
+        }
+    }
+}

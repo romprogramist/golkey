@@ -1,0 +1,50 @@
+@media screen and (max-width: 1399px) {
+  .apply {
+    .wrapper {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .apply {
+    .wrapper {      
+      &__button {
+        max-width: 265px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+    .apply {
+      .headerApply {
+        margin: 0 auto;
+        display: block;
+      }
+      .wrapper {      
+        display: block;
+        input {
+            display: block;
+            margin: 0 auto;
+            margin-top: 45px;
+        }
+        &__button {
+            margin: 0 auto; 
+            margin-top: 58px;
+          }
+          &__subtitle {
+              text-align: center;
+          }
+      }
+      .phoneErrorChek {
+        width: 250px;
+        margin: 0 auto;
+      }
+      .nameErrorChek {
+        width: 250px;
+        margin: 0 auto;
+      }
+    }
+  }
+  

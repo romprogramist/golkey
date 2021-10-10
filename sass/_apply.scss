@@ -1,0 +1,56 @@
+.apply {
+    background: #F7F7F6;
+    padding: 45px 0 40px 0;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        input {
+            font-size: 18px;
+            line-height: 21px;
+            width: 250px;
+            height: 31px;
+            border: none;
+            border-bottom: 1px solid #000000;
+            background-color: transparent;
+            outline: none;
+            
+        }
+        input::placeholder {
+            font-size: 18px;
+            line-height: 21px;
+            color: #CECECE;
+        }
+        &__button {
+            width: 329px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+            line-height: 14px;
+            color: #949494;
+            margin-top: 13px;
+        }
+    }
+    .headerApply {
+        display: none;
+    }
+    .phoneErrorChek {
+        position: relative;
+    }
+    .errorPhone {
+        font-size: 11px;
+        top: 35px;
+        position: absolute;
+    }
+    .nameErrorChek {
+        position: relative;
+    }
+    .errorName {
+        position: absolute;
+        font-size: 11px;
+        top: 35px;
+    }
+}

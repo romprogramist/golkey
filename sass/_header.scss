@@ -1,0 +1,68 @@
+header {
+    height: 153px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    .headerWrapperFlex {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .NavMenu {
+        display: flex;
+        align-items: center;
+        width: 39.4%;
+        &__nav {
+            width: 100%;
+        }
+        &__ul {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        &__li {
+            font-size: 13px;
+            line-height: 15px;
+            list-style-type: none;
+            a {
+                color: #919191;
+            }
+        }
+    }
+    .bellWrapper {
+        display: flex;
+        align-items: center;
+        &__bell {
+            line-height: 19px;
+            text-align: right;
+            color: #000000;
+        }
+        &__requestCall {
+            text-align: right;
+            margin-top: 6px;
+            line-height: 19px;
+            display: block;
+            color: black;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                border-bottom: 1px dashed #000000;
+                width: 93%;
+                top: 20px;
+            }
+        }
+    }
+    .hamburger {
+        display: none;
+    }
+    .logoHamburger {
+        display: none;
+    }
+    .hamburgerTel {
+        display: none;
+    }
+}
+

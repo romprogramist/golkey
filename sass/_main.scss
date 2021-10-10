@@ -1,0 +1,69 @@
+
+.main {
+    height: 658px;
+    width: 100%;
+    .bg {
+        height: 100%;
+        width: 100%;
+        background: url('../img/bg/MainBG.jpg') center center / cover no-repeat;
+        height: 658px;
+    }
+    .bgTwo {
+        padding: 82px 0 85px 0;
+        width: 50%;
+        height: 100%;
+        &__wrapper {
+            margin-left: 40%;
+        }
+        h1 {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 56px;
+            span {
+                font-weight: 500;
+                line-height: 51px;
+                font-size: 43.2809px;
+                display: block;
+                color: #9C8740;
+            }
+        }
+        &__subtitle {
+            margin-top: 32px;
+            font-size: 18px;
+            line-height: 21px;
+            color: #5C5C5C;
+            width: 70%;
+        }
+    }
+    .ourExperience {
+        margin-top: 76px;
+        display: flex;
+        &__item {
+            width: 167px;
+            text-align: center;
+        }
+        &__itemLin {
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                height: 146px;
+                border: 1px solid #000000;
+                left: 100%;
+            }
+        }
+        &__number {
+            font-size: 50px;
+            line-height: 59px;
+            margin-top: 15px;
+            font-weight: 300;
+        }
+        &__subheader {
+            width: 90%;
+            margin: 0 auto;
+            font-weight: 300;
+            margin-top: 10px;
+            line-height: 19px;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+body {
+  * {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      color: black;
+    }
+  }
+  .header {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 20px;
+    &_aboutCompany {
+      text-align: left;
+    }
+    &_whyGoldenKey {
+      text-align: left;
+    }
+  }
+  .button {
+    font-weight: 500;
+    width: 329px;
+    height: 62px;
+    margin-top: 44px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    background-color: #808080;
+    background: transparent;
+    font-size: 18px;
+    line-height: 21px;
+    &_request {
+      margin-top: 0;
+    }
+    &_footerButton {
+      width: 305px;
+      height: 69px;
+      background: #313131;
+      border: none;
+      color: #d1d1d1;
+    }
+    &_onmouseoutBtn {
+      margin-top: 0;
+      width: 219px;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 1010px) {
+    .button {
+      width: 265px;
+      height: 49.94px;
+      font-size: 14.4985px;
+      line-height: 17px;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .surpriseWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 999;
+    .surprise {
+      bottom: 0px;
+      width: 65px;
+      height: 65px;
+      background: linear-gradient(
+        95deg,
+        rgb(224, 196, 103) 20%,
+        rgb(249, 233, 179) 80%
+      );
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      img {
+        width: 35px;
+        height: 31px;
+      }
+    }
+  }
+}
+
+.XzKodrat {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(87, 6, 6);
+  margin: 0 auto;
+}

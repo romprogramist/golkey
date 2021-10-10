@@ -1,0 +1,38 @@
+@media screen and (max-width: 575px) {
+  .workExamples {
+    padding: 65px 0 47px 0;
+    .wrapper {
+      margin-top: 0px;
+      &__item {
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+        width: 70%;
+        font-size: 16px;
+        line-height: 25px;
+      }
+      img {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+    .workExamples {
+      .wrapper {
+        &__item {
+          display: flex;
+          align-items: center;
+          padding-left: 10%;
+          width: 85%;
+          font-size: 16px;
+          line-height: 25px;
+        }
+        img {
+          margin-right: 15px;
+        }
+      }
+    }
+  }

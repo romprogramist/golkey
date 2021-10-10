@@ -1,0 +1,37 @@
+.aboutCompany {
+  padding-top: 50px;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    &__img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      margin-left: 144px;
+      p {
+        font-size: 18px;
+        line-height: 21px;
+        color: #8a8a8a;
+      }
+    }
+    &__item {
+      max-width: 400px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 47px;
+      p {
+        width: 292px;
+      }
+      img {
+        margin-right: 20px;
+      }
+    }
+  }
+  .aboutCompanyTitle {
+    max-width: 546px;
+  }
+}

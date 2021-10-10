@@ -1,0 +1,33 @@
+@media screen and (max-width: 550px) {
+    .shadow {
+        &__modal {
+            padding: 30px 30px 61px 30px;
+            width: 320px;
+            height: 450px;
+        }
+        .close {
+            font-size: 40px;
+        }
+        .thankYou {
+            font-size: 15px;
+        }
+    }
+    .shadowSurprise {
+        &__modal {
+            width: 310px;
+            padding: 70px  30px 30px 30px;
+        }
+        .title {
+            font-size: 13.3px;
+        }
+        .wrapperFlex {
+            img {
+                height: 145px;
+                width: 65px;
+            }
+            &__title {
+                max-width: 170px;
+            }
+        }
+    }
+}

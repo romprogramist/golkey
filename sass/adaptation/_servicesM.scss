@@ -1,0 +1,159 @@
+@media screen and (max-width: 1399px) {
+  .services {
+    .servicesItem {
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      &__itemOne {
+        width: 60%;
+      }
+      &__itemTwo {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .plugNone {
+      width: 96px;
+      background: #f7f7f6;
+    }
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .services {
+    .servicesItem {
+      &__itemOne {
+        width: 70%;
+      }
+      &__itemTwo {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .services {
+    .servicesItem {
+      &__itemOne {
+        width: 100%;
+      }
+      &__itemTwo {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services {
+    // margin-top: 100px;
+    .container {
+      padding: 0;
+    }
+    .servicesItem {
+      &__img {
+        width: 440px;
+        height: 231px;
+        object-fit: cover;
+      }
+    }
+    .plug {
+      width: 61px;
+      height: 231px;
+    }
+    .plugNone {
+      width: 61px;
+      height: 231px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .services {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .services {
+    .servicesItem {
+      &__img {
+        width: 430px;
+        height: 200px;
+      }
+    }
+    .plug {
+      width: 30px;
+      height: 200px;
+    }
+    .plugNone {
+      width: 30px;
+      height: 200px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 490px) {
+  .services {
+    .servicesItem {
+      &__img {
+        width: 390px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .services {
+    .servicesItem {
+      &__img {
+        width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .services {
+    // margin-top: 100px;
+    .servicesItem {
+      &__img {
+        width: 320px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .services {
+    .servicesItem {
+      &__img {
+        width: 300px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .services {
+    .servicesItem {
+      &__img {
+        width: 280px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .services {
+    .servicesItem {
+      &__img {
+        width: 250px;
+      }
+    }
+  }
+}
