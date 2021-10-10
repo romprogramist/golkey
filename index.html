@@ -152,64 +152,102 @@
             РАССЧИТАЙТЕ СТОИМОСТЬ
           </h2>
           <p>Узнайте стоимость Вашего ремонта за 3 минуты</p>
-          <div class="wrapper d-none">
-            <div>
-              <div class="bg-gold">1</div>
-              <div>2</div>
-              <div>3</div>
-              <div>4</div>
-              <div>5</div>
-            </div>
-            <div>Укажите тип объекта:</div>
-            <div>
-              <div>
-                <img src="img/bg/main-house.jpg" alt="дом">
-                <p>Дом</p>
-              </div>
-              <div>
-                <img src="img/bg/main-apartment.jpg" alt="квартира">
-                <p>Квартира</p>
-              </div>
-              <div>
-                <img src="img/bg/main-sale.jpg" alt="Коммерческое помещение">
-                <p>Коммерческое помещение</p>
-              </div>
-            </div>
-          </div>
-          <div class="wrapper d-none">
-            <div>
-              <div>1</div>
-              <div class="bg-gold">2</div>
-              <div>3</div>
-              <div>4</div>
-              <div>5</div>
-            </div>
-            <div>Состояние объекта:</div>
-            <div>
-              <div>
-                <img src="/img/bg/apartment-new-building.jpg" alt="дом">
-                <p>Новостройка</p>
-              </div>
-              <div>
-                <img src="img/bg/secondary-apartment.jpg" alt="квартира">
-                <p>Вторичная недвижимость</p>
-              </div>
-            </div>
-          </div>
           <div class="wrapper">
-            <div>
-              <div>1</div>
-              <div>2</div>
-              <div class="bg-gold">3</div>
-              <div>4</div>
-              <div>5</div>
+
+            <div id="stages">
+              <div data-stage=1>1</div>
+              <div data-stage=2>2</div>
+              <div data-stage=3>3</div>
+              <div data-stage=4>4</div>
+              <div data-stage=5>5</div>
             </div>
-            <div>Площадь помещения (м2):</div>
-            <div>
-              <label>
-                <input type="range" min="0" step="1">
-              </label>
+
+            <div class="stage-content" data-stage=1 data-title="Тип объекта">
+              <p>Укажите тип объекта:</p>
+              <div>
+                <div data-option="дом">
+                  <img src="img/bg/main-house.jpg" alt="дом">
+                  <p>Дом</p>
+                </div>
+                <div data-option="квартира">
+                  <img src="img/bg/main-apartment.jpg" alt="квартира">
+                  <p>Квартира</p>
+                </div>
+                <div data-option="Коммерческое помещение">
+                  <img src="img/bg/main-sale.jpg" alt="Коммерческое помещение">
+                  <p>Коммерческое помещение</p>
+                </div>
+              </div>
             </div>
+
+            <div class="stage-content" data-stage=2 data-title="Состояние объекта">
+              <p>Состояние объекта:</p>
+              <div>
+                <div data-option="дом">
+                  <img src="/img/bg/apartment-new-building.jpg" alt="дом">
+                  <p>Новостройка</p>
+                </div>
+                <div data-option="квартира">
+                  <img src="img/bg/secondary-apartment.jpg" alt="квартира">
+                  <p>Вторичная недвижимость</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="stage-content" data-stage=3 data-title="Рома объекта">
+              <p>Укажите Рому объекта:</p>
+              <div>
+                <div data-option="Рома1">
+                  <img src="img/bg/main-house.jpg" alt="Рома1">
+                  <p>Рома 1</p>
+                </div>
+                <div data-option="Рома2">
+                  <img src="img/bg/main-apartment.jpg" alt="Рома2">
+                  <p>Рома 2</p>
+                </div>
+                <div data-option="Рома3">
+                  <img src="img/bg/main-sale.jpg" alt="Рома3">
+                  <p>Рома 3</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="stage-content" data-stage=4 data-title="Саркис объекта">
+              <p>Укажите Саркиса объекта:</p>
+              <div>
+                <div data-option="Саркис1">
+                  <img src="img/bg/main-house.jpg" alt="Саркис1">
+                  <p>Саркис 1</p>
+                </div>
+                <div data-option="Саркис2">
+                  <img src="img/bg/main-apartment.jpg" alt="Саркис2">
+                  <p>Саркис 2</p>
+                </div>
+                <div data-option="Саркис3">
+                  <img src="img/bg/main-sale.jpg" alt="Саркис3">
+                  <p>Саркис 3</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="stage-content" data-stage=5 data-title="Ваник объекта">
+              <p>Укажите Ваника объекта:</p>
+              <div>
+                <div data-option="Ваник1">
+                  <img src="img/bg/main-house.jpg" alt="Ваник1">
+                  <p>Ваник 1</p>
+                </div>
+                <div data-option="Ваник2">
+                  <img src="img/bg/main-apartment.jpg" alt="Ваник2">
+                  <p>Ваник 2</p>
+                </div>
+                <div data-option="Ваник3">
+                  <img src="img/bg/main-sale.jpg" alt="Ваник3">
+                  <p>Ваник 3</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -888,6 +926,7 @@
     <script src="js/portfolio.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/masc.js"></script>
+    <script src="js/quiz.js"></script>
 
   </body>
 </html>

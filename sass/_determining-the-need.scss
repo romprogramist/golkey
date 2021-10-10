@@ -3,9 +3,9 @@
   .header {
     position: relative;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
-      border: 1px solid #E0C467;
+      border: 1px solid #e0c467;
       width: 75%;
       height: 2px;
       left: 50%;
@@ -22,32 +22,32 @@
   .container {
     width: 670px;
   }
-  .wrapper > :nth-child(1) {
+  #stages {
     display: flex;
     width: 202px;
     margin: 37px auto 0 auto;
     justify-content: space-between;
     & > div {
-      color: #9C8740;
+      color: #9c8740;
       font-size: 12px;
       width: 26px;
       height: 26px;
-      border: 1px solid #9C8740;
+      border: 1px solid #9c8740;
       border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         left: 25px;
-        border: 1px solid #9C8740;
+        border: 1px solid #9c8740;
         width: 19px;
       }
     }
     .bg-gold {
-      background: #9C8740;
+      background: #9c8740;
       color: #fff;
     }
     & > div:last-child {
@@ -56,30 +56,35 @@
       }
     }
   }
-  .wrapper > :nth-child(2) {
-    margin-top: 43px;
-    font-weight: 500;
-    font-size: 22px;
-  }
-  .wrapper > :nth-child(3) {
-    display: flex;
-    margin-top: 25px;
-    & > div {
-      margin-left: 20px;
-      cursor: pointer;
-      p {
-        text-align: start;
-        margin-top: 10px;
-        font-size: 15px;
-        line-height: 18px;
-        color: black;
-      }
-    }
-    & > div:first-child {
-      margin-left: 0;
+  .stage-content {
+    display: none;
+    & > p {
+      text-align: left;
+      margin-top: 43px;
+      font-weight: 500;
+      font-size: 22px;
     }
 
+    & > div {
+      display: flex;
+      margin-top: 25px;
+      & > div {
+        margin-left: 20px;
+        cursor: pointer;
+        p {
+          text-align: start;
+          margin-top: 10px;
+          font-size: 15px;
+          line-height: 18px;
+          color: black;
+        }
+      }
+      & > div:first-child {
+        margin-left: 0;
+      }
+    }
   }
+
   label {
     width: 100%;
     input {
@@ -87,5 +92,9 @@
       background: black;
       height: 1px;
     }
+  }
+
+  .show {
+    display: block;
   }
 }
